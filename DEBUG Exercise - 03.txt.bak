@@ -8,16 +8,19 @@ start
    Declarations
       string name
       string EOFNAME = ZZZZ
-   housekeeping()
+   while name not equal to EOFNAME
+      housekeeping()
+   endwhile
    while name not equal to EOFNAME
       mainLoop()
    endwhile
-   finish()
+   while name not equal to EOFNAME
+      finish()
+   endwhile
 stop
 
 housekeeping()
    output "Enter first name or ", EOFNAME, " to quit "
-   input name
 return
 
 mainLoop()

@@ -1,9 +1,9 @@
 Question: You have been tasked with reviewing and updating this program. What steps would you take to identify any issues in the code?
 Your Response:
-Follow the logic of the code, ensuring that each declarations is properly used and that program logic makes sense.
+
 Question: What actions could the developer have taken to minimize the number of errors?
 Your Response:
-They could have minimized errors by ensuring they initialized/used all of their declared variable, as well as checking for pseudocode and mathematical rules and requirements. 
+
 Debbugging Exercise:
 
 // This pseudocode is intended to determine whether students have
@@ -16,11 +16,10 @@ start
       num average
       num PASSING = 60
    output "Enter first score or 0 to quit "
-   input firstTest
-   while firstTest <> 0
+   while firstTest not equal to 0
       output "Enter second score "
       input secondTest
-      average = (firstTest + secondTest) / 2
+      average = firstTest + secondTest / 2
       ouput "Average is ", average
       if average >= PASSING then
          output "Pass"
@@ -28,7 +27,6 @@ start
          output "Fail"
       endif
       output "Enter first score or 0 to quit "
-	  input firstTest
    endwhile
 stop
 
